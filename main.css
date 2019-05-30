@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Mandali|PT+Serif&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+
+
+body {
+	font-family: Verdana, serif;
+	background-color: #f3f9ff;
+}
+
+h1, h2, h3, h4, h5, h6,
+button, input[type="submit"],
+nav a {
+	font-family: 'Mandali', sans-serif;
+	font-weight: bolder;
+}
+
+button, input[type="submit"] {
+	letter-spacing: 1.55px;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+
+	text-align: right;
+	padding: 20px;
+
+}
+
+nav a {
+
+	padding: 12px 16px;
+	display: inline-block;
+	color: #0c47bb;
+	border-bottom: solid 6px transparent;
+
+}
+
+nav a:hover {
+
+	background-color: #0c47bb;
+	color: #FFF;
+	border-radius: 6px;
+	border-bottom: solid 6px #07348c;
+
+}
+
+#header {
+
+	font-size: 45px;
+
+	padding-bottom: 15px;
+
+}
+
+#details-container {
+	
+	padding-bottom: 15px;
+
+}
+
+
+.content-center {
+	
+	max-width: 1020px;
+	margin: auto;
+	padding: 100px 25px 50px;
+
+}
+
+#btn-container {
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+#btn-container button {
+
+	font-weight: bolder;
+	border-radius: 8px;
+	font-size: 20px;
+	padding: 12px 32px;
+	border: none;
+
+	color: #FFF;
+
+	transition: opacity 0.32s ease;
+
+}
+
+#btn-one {
+	background-color: #f24d08;
+}
+
+#btn-two {
+	background-color: #1294f5;
+}
+
+#msg-wrapper {
+	font-weight: bolder;
+}
+
+
+#hover-container {
+
+	font-size: 55px;
+	font-weight: bolder;
+	padding: 75px 25px;
+	text-align: center;
+	border: dashed 16px #ea7878;
+	border-radius: 8px;
+
+}
+
+.form-wrapper {
+	display: block;
+	position: relative;
+
+	max-width: 540px;
+	margin: auto;
+}
+
+.form-wrapper label {
+	display: block;
+	font-size: 16px;
+	letter-spacing: 1.25px;
+	padding-bottom: 12px;
+}
+
+.form-wrapper input[type="text"],
+.form-wrapper input[type="email"],
+.form-wrapper input[type="password"] {
+	display: block;
+	box-sizing: border-box;
+	font-size: 1.10rem;
+	padding: 15px 18px;
+	background-color: #FFF;
+	border: none;
+	width: 100%;
+	box-shadow: 0px 0px 32px -5px rgba(150, 150, 20, 0.45);
+	margin-bottom: 24px;
+
+}
+
+#result {
+	text-align: center;
+	padding: 75px 20px;
+
+}
+
+#result h2 {
+	font-size: 25px;
+	padding-bottom: 15px;
+}
+
+#logout-btn, #submit-btn {
+
+	border: none;
+	background-color: #4cff33;
+	font-weight: bolder;
+	font-size: 1.25rem;
+	color: #1b5014;
+	padding: 5px 28px;
+	border-radius: 6px;
+	border-bottom: solid 6px #4aad3d;
+
+}
